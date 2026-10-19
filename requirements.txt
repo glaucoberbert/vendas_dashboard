@@ -1,0 +1,16 @@
+# Esse dash cria a página web do dashboard (layout, filtros e etc)
+# Já traz o Flask (aquele servidor web que o PythonAnywhere usa)
+# O ">=2.16" é só uma versão MÍNIMA: aceita a 2.16 ou qualquer mais nova.
+# Ele não fixa uma versão específica (aqui o pip pegou a mais nova) e também
+# não garante que nunca vai dar erro, é só um "piso" pra não vir versão velha demais.
+dash>=2.16
+
+# Plotly Express: desenha os gráficos.
+plotly>=5.18
+
+# pandas: lê a planilha e faz as contas com tabelas
+pandas>=1.5
+
+# openpyxl: biblioteca que o pandas usa por baixo para abrir arquivos .xlsx.
+# Sem ela, o pd.read_excel dá erro.
+openpyxl
