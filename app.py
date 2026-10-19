@@ -239,7 +239,7 @@ def atualiza_estado_cidade(estado, cidade):
     return px.bar(soma, x="Valor_Total_Venda", y="Nome_Produto", orientation="h",
                   labels=ROTULOS, title=f"Vendas por Produto - {local}")
 
-
+    
 # Só liga o servidor no seu computador quando o arquivo é rodado direto (py app.py).
 # No PythonAnywhere esse trecho não roda; quem atende o site é o "server" lá de cima.
 if __name__ == "__main__":

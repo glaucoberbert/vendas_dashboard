@@ -2,6 +2,7 @@ TRABALHO PRÁTICO - DASHBOARD DE VENDAS 2020 (Dash + Plotly Express)
 
 Integrante: Glauco Berbert
 Link do dashboard: https://glaucoberbert.pythonanywhere.com
+Repositório no GitHub: https://github.com/glaucoberbert/vendas_dashboard
 
 O QUE TEM NO DASHBOARD
 1) Visão geral: vendas por mês (área), por representante (barras),
@@ -26,4 +27,5 @@ COMO RODAR NO COMPUTADOR
 HOSPEDAGEM
 PythonAnywhere (plano gratuito). Foi criado um ambiente virtual com
 Python 3.13, as bibliotecas foram instaladas com o requirements.txt e o
-arquivo WSGI importa a variável "server" do app.py.
+arquivo WSGI importa a variável "server" do app.py. O código foi levado
+para o PythonAnywhere a partir do repositório do GitHub, com git pull.
